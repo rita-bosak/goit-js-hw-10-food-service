@@ -27,10 +27,10 @@ function handleThemeSwitch(e) {
     localStorage.setItem('theme', Theme.DARK);
   }
 }
-const currentTheme = localStorage.getItem('theme');
+// const currentTheme = localStorage.getItem('theme');
 
-document.body.classList.add(currentTheme);
+// document.body.classList.add(currentTheme);
 
-if (currentTheme === Theme.DARK) {
-  return (checkboxThemeSwitch.checked = true);
-}
+// if (currentTheme === Theme.DARK) {
+//   return (checkboxThemeSwitch.checked = true);
+// }
