@@ -30,7 +30,10 @@ function handleThemeSwitch(e) {
 const currentTheme = localStorage.getItem('theme');
 
 document.body.classList.add(currentTheme);
+checkCurrentDarkTheme();
 
-// if (currentTheme === Theme.DARK) {
-//   return (checkboxThemeSwitch.checked = true);
-// }
+function checkCurrentDarkTheme() {
+  if (currentTheme === Theme.DARK) {
+    return (checkboxThemeSwitch.checked = true);
+  }
+}
