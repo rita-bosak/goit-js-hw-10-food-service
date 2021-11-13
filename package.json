@@ -5,8 +5,8 @@
   "main": "menu-page.js",
   "homepage": "https://rita-bosak.github.io/goit-js-hw-10-food-service",
   "scripts": {
-    "dev": "parcel src/partials/menu-page.html",
-    "build": "parcel build src/partials/menu-page.html --public-url /goit-js-hw-10-food-service/"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
   },
   "repository": {
     "type": "git",
